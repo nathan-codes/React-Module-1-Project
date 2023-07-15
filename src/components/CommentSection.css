@@ -1,0 +1,12 @@
+.CommentSection{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    background-image: url(/React-Module-1-Project/src/images/bg-curvy-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

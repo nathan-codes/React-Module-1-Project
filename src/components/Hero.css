@@ -1,0 +1,44 @@
+.Hero {
+  text-align: center;
+  margin: 0 1.2rem;
+  color: var(--White);
+  max-width: 720px;
+  margin: 0 auto;
+}
+.heroImage {
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+.Hero h1 {
+  font-weight: var(--fw-bold);
+  font-size: 2.25rem;
+  line-height: 36px;
+}
+
+.Hero p {
+  /* max-width: 36.8125rem; */
+  margin: 2rem auto;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 25px; /* 150% */
+}
+
+@media (max-width: 600px) {
+  .heroImage {
+    margin-top: 1rem;
+  }
+  .Hero h1 {
+    margin: 1.75rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem; /* 150% */
+  }
+
+  .Hero p {
+    margin: 2rem 2.5rem;
+    font-size: 0.875rem;
+    line-height: 1.3125rem; /* 150% */
+  }
+}
